@@ -1,0 +1,61 @@
+.fade-in-left {
+    animation: animateLeft 2s;
+    -moz-animation: animateLeft 2s; /* Firefox */
+    -webkit-animation: animateLeft 1s; /* Safari and Chrome */
+    -o-animation: animateLeft 2s; /* Opera */
+}
+
+.fade-in-right {
+    animation: animateRight 1s;
+    -moz-animation: animateRight 1s; /* Firefox */
+    -webkit-animation: animateRight 1s; /* Safari and Chrome */
+    -o-animation: animateRight 1s; /* Opera */
+}
+.fade-in-up{
+    animation: animateRight 3s;
+    -moz-animation: animateRight 3s; /* Firefox */
+    -webkit-animation: animateRight 3s; /* Safari and Chrome */
+    -o-animation: animateRight 3s; /* Opera */
+}
+
+/* ANIMATE LEFT */
+@keyframes animateLeft {
+    from { opacity:0; left: -100px; }
+    to { opacity:1; left: 0; }
+}
+
+@-moz-keyframes animateLeft { /* Firefox */
+    from { opacity:0; right: -100px; }
+    to {  opacity:1; right: 0; }
+}
+
+@-webkit-keyframes animateLeft { /* Safari and Chrome */
+    from { opacity: 0; right: -100px; }
+    to { opacity:1; right: 0; }
+}
+
+@-o-keyframes aninateLeft{ /* Opera */
+    from { opacity:0; right: -100px; }
+    to { opacity: 1; right: 0; }
+}
+
+/* ANIMATE RIGHT */
+@keyframes animateRight {
+    from { opacity:0; left: -100px; }
+    to { opacity:1; left: 0; }
+}
+
+@-moz-keyframes animateRight { /* Firefox */
+    from { opacity:0; left: -100px; }
+    to {  opacity:1; left: 0; }
+}
+
+@-webkit-keyframes animateRight { /* Safari and Chrome */
+    from { opacity: 0; left: -100px; }
+    to { opacity:1; left: 0; }
+}
+
+@-o-keyframes aninateRight{ /* Opera */
+    from { opacity:0; left: -100px; }
+    to { opacity: 1; left: 0; }
+}

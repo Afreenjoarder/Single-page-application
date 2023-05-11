@@ -1,0 +1,27 @@
+@media (max-width: 767px) {
+    .square_promotion{
+        margin-left:10%;}
+
+    .single_project img {
+        margin-left: -11%;
+        text-align: center;
+        width: 100%;
+    }
+    .project_overlay {
+        margin-left: -4.9%;}
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .project_overlay {
+        margin-left: 8%;
+        width: 85%;
+    }
+    .pagr{
+        padding: 200px 0;
+    }
+
+}
+
